@@ -40,7 +40,7 @@ class MyHomePage extends StatelessWidget {
             ),
             _sizedContainer(
               CachedNetworkImage(
-                imageUrl: 'http://via.placeholder.com/300x150',
+                imageUrl: 'https://firebasestorage.googleapis.com/v0/b/hire-7dbb2.appspot.com/o/@thumb_1573077245510.jpg?alt=media&token=07a4904a-5fd6-4b81-a494-533a979c3e2d',
                 imageBuilder: (context, imageProvider) => Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -57,23 +57,23 @@ class MyHomePage extends StatelessWidget {
                 errorWidget: (context, url, error) => const Icon(Icons.error),
               ),
             ),
+            // _sizedContainer(
+            //   CachedNetworkImage(
+            //     imageUrl: 'http://notAvalid.uri',
+            //     placeholder: (context, url) => CircularProgressIndicator(),
+            //     errorWidget: (context, url, error) => const Icon(Icons.error),
+            //   ),
+            // ),
+            // _sizedContainer(
+            //   CachedNetworkImage(
+            //     imageUrl: 'not a uri at all',
+            //     placeholder: (context, url) => CircularProgressIndicator(),
+            //     errorWidget: (context, url, error) => const Icon(Icons.error),
+            //   ),
+            // ),
             _sizedContainer(
               CachedNetworkImage(
-                imageUrl: 'http://notAvalid.uri',
-                placeholder: (context, url) => CircularProgressIndicator(),
-                errorWidget: (context, url, error) => const Icon(Icons.error),
-              ),
-            ),
-            _sizedContainer(
-              CachedNetworkImage(
-                imageUrl: 'not a uri at all',
-                placeholder: (context, url) => CircularProgressIndicator(),
-                errorWidget: (context, url, error) => const Icon(Icons.error),
-              ),
-            ),
-            _sizedContainer(
-              CachedNetworkImage(
-                imageUrl: 'http://via.placeholder.com/350x200',
+                imageUrl: 'https://firebasestorage.googleapis.com/v0/b/hire-7dbb2.appspot.com/o/@thumb_1573181933093.jpg?alt=media&token=eed9443d-631c-445b-b248-cd2fac647b8d',
                 placeholder: (context, url) => CircularProgressIndicator(),
                 errorWidget: (context, url, error) => const Icon(Icons.error),
                 fadeOutDuration: const Duration(seconds: 1),
